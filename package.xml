@@ -10,9 +10,9 @@
     To avoid any confusion with the version of the vendor package, the major
     version here will always be 0.
   -->
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <description>
-    Vendor package for: gz-fuel_tools9 9.1.0
+    Vendor package for: gz-fuel_tools9 9.1.1
 
     Gazebo Fuel Tools: Classes and tools for interacting with Gazebo Fuel
   </description>
@@ -24,6 +24,7 @@
   <buildtool_depend>ament_cmake_test</buildtool_depend>
   <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
 
+  <buildtool_depend>cmake</buildtool_depend>
   <build_depend>libcurl-dev</build_depend>
   <build_depend>libgflags-dev</build_depend>
   <build_depend>libjsoncpp-dev</build_depend>

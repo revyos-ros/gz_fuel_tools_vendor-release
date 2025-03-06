@@ -2,6 +2,11 @@
 Changelog for package gz_fuel_tools_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.6 (2025-02-10)
+------------------
+* Bump version to 9.1.1 (`#6 <https://github.com/gazebo-release/gz_fuel_tools_vendor/issues/6>`_)
+* Contributors: Addisu Z. Taddese
+
 0.0.5 (2024-08-08)
 ------------------
 * Update vendored package version to 9.1.0
