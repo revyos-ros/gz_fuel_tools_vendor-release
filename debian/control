@@ -1,0 +1,12 @@
+Source: ros-jazzy-gz-fuel-tools-vendor
+Section: misc
+Priority: optional
+Maintainer: Addisu Z. Taddese <addisuzt@intrinsic.ai>
+Build-Depends: debhelper (>= 9.0.0), cmake, libcurl4-openssl-dev, libgflags-dev, libjsoncpp-dev, libtinyxml2-dev, libyaml-dev, libzip-dev, ros-jazzy-ament-cmake-copyright <!nocheck>, ros-jazzy-ament-cmake-core, ros-jazzy-ament-cmake-lint-cmake <!nocheck>, ros-jazzy-ament-cmake-test, ros-jazzy-ament-cmake-vendor-package, ros-jazzy-ament-cmake-xmllint <!nocheck>, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-common-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-tools-vendor, ros-jazzy-gz-utils-vendor, ros-jazzy-ros-workspace
+Homepage: https://github.com/gazebosim/gz-fuel-tools
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-gz-fuel-tools-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcurl4-openssl-dev, libgflags-dev, libjsoncpp-dev, libtinyxml2-dev, libyaml-dev, libzip-dev, ros-jazzy-gz-cmake-vendor, ros-jazzy-gz-common-vendor, ros-jazzy-gz-math-vendor, ros-jazzy-gz-msgs-vendor, ros-jazzy-gz-tools-vendor, ros-jazzy-gz-utils-vendor, ros-jazzy-ros-workspace
+Description: Vendor package for: gz-fuel_tools9 9.1.1 Gazebo Fuel Tools: Classes and tools for interacting with Gazebo Fuel
